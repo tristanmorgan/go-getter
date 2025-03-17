@@ -1,6 +1,7 @@
 package getter
 
 import (
+	"bufio"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -36,7 +37,7 @@ func (d *XzDecompressor) Decompress(dst, src string, dir bool, umask os.FileMode
 	defer f.Close()
 
 	// xz compression is second
-	xzR, err := xz.NewReader(f)
+	xzR, err := xz.NewReader(bufio.NewReader(f))
 	if err != nil {
 		return err
 	}

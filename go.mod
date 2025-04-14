@@ -6,11 +6,10 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.0
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/hashicorp/go-safetemp v1.0.0
-	github.com/hashicorp/go-version v1.1.0
-	github.com/klauspost/compress v1.11.2
-	github.com/mitchellh/go-homedir v1.0.0
-	github.com/mitchellh/go-testing-interface v1.0.0
-	github.com/ulikunitz/xz v0.5.8
+	github.com/hashicorp/go-version v1.6.0
+	github.com/klauspost/compress v1.15.11
+	github.com/mitchellh/go-homedir v1.1.0
+	github.com/ulikunitz/xz v0.5.10
 )
 
 require github.com/hashicorp/errwrap v1.0.0 // indirect

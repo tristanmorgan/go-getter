@@ -74,7 +74,7 @@ func init() {
 		Netrc:                 true,
 		XTerraformGetDisabled: true,
 		HeadFirstTimeout:      10 * time.Second,
-		ReadTimeout:           30 * time.Second,
+		ReadTimeout:           60 * time.Second,
 	}
 
 	// The order of the Getters in the list may affect the result
